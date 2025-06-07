@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Wander Auto Gas Srl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #006600;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      border-bottom: 5px solid #00cc00;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .logo-contenedor img {
+      height: 60px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #007733;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .contacto {
+      background-color: #e9fce9;
+      padding: 20px;
+      border: 2px solid #66cc66;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    .video-contenedor {
+      margin-top: 30px;
+      background-color: #f0fff0;
+      padding: 20px;
+      border-radius: 15px;
+      border: 2px solid #aaddaa;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .video-contenedor iframe {
+      width: 100%;
+      height: 500px;
+      border-radius: 10px;
+    }
+
+    .mvv {
+      margin-top: 40px;
+    }
+
+    .mvv-contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .tarjeta {
+      background: #f0fff8;
+      border-left: 6px solid #00cc66;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      flex: 1;
+      min-width: 280px;
+      max-width: 350px;
+    }
+
+    .tarjeta h3 {
+      color: #007733;
+      margin-bottom: 10px;
+    }
+
+    .tarjeta ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    .tarjeta ul li::before {
+      content: "✔️ ";
+      color: #00aa55;
+    }
+
+    .botones-contacto {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .botones-contacto a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .boton-llamar {
+      background-color: #00cc66;
+    }
+
+    .boton-mapa {
+      background-color: #0066cc;
+    }
+
+    .boton-instagram {
+      background-color: #E4405F; /* Color característico de Instagram */
+    }
+
+    .boton-facebook {
+      background-color: #3b5998; /* Color de Facebook */
+    }
+
+    .botones-contacto a:hover {
+      filter: brightness(1.1);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .logo-contenedor {
+        margin-top: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wander Auto Gas Srl</h1>
+    <div class="logo-contenedor">
+      <img src="https://png.pngtree.com/png-clipart/20220627/original/pngtree-auto-car-logo-template-png-image_8224290.png" alt="Logo Camión">
+    </div>
+  </header>
+
+  <section>
+    <h2>Bienvenido</h2>
+    <p><strong>Wander Auto Gas Srl</strong> se especializa en la instalación y mantenimiento de sistemas de auto gas. Te ofrecemos soluciones seguras, eficientes y un servicio al cliente de calidad.</p>
+
+    <div class="contacto">
+      <h3>Información de contacto</h3>
+      <p><strong>Dirección:</strong> Calle Federico Velásquez No. 39, Esq. Calle Josefa Brea, Villa Consuelo, Distrito Nacional, SD</p>
+      <p><strong>Teléfono:</strong> 809 681 6993</p>
+    </div>
+
+    <div class="botones-contacto">
+      <a href="tel:+18096816993" class="boton-llamar">📞 Llamar Ahora</a>
+      <a href="https://www.google.com/maps/place/Calle+Federico+Velásquez+No.+39,+Esq.+Josefa+Brea,+Villa+Consuelo,+Santo+Domingo" target="_blank" class="boton-mapa">📍 Ver Ubicación</a>
+      <a href="https://www.instagram.com/wandergas01?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="boton-instagram">📸 Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100064217916716" target="_blank" class="boton-facebook">📘 Facebook</a> <!-- Nuevo botón de Facebook -->
+    </div>
+
+    <h2>Nuestras Instalaciones</h2>
+    <div class="galeria">
+      <img src="https://i.ytimg.com/vi/2BvdUexWfIY/maxresdefault.jpg" alt="Imagen 1">
+      <img src="https://th.bing.com/th/id/OIP.ls3a18iCxx2N9MxhzOuuFgHaHa?rs=1&pid=ImgDetMain" alt="Imagen 2">
+      <img src="https://th.bing.com/th/id/OIP.P8NDTQhlYiLKBc3UliO1WQHaIr?rs=1&pid=ImgDetMain" alt="Imagen 3">
+    </div>
+
+    <h2>Video de nuestras instalaciones</h2>
+    <div class="video-contenedor">
+      <iframe src="https://www.youtube.com/embed/2BvdUexWfIY?si=TJMUr0fmUBiWRkJm" title="Video de Wander Auto Gas"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+    </div>
+
+    <div class="mvv">
+      <h2>Nuestra Filosofía</h2>
+      <div class="mvv-contenedor">
+        <div class="tarjeta">
+          <h3>🎯 Misión</h3>
+          <p>Brindar soluciones eficientes y seguras en la conversión de vehículos a gas, garantizando satisfacción y confianza a nuestros clientes.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>🚀 Visión</h3>
+          <p>Ser líderes en el mercado nacional en servicios de auto gas, reconocidos por nuestra calidad, innovación y compromiso con el medio ambiente.</p
+
